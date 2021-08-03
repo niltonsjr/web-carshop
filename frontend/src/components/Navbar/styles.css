@@ -1,5 +1,6 @@
 .main-nav {
     min-height: 70px;
+    min-width: 320px;
     padding-left: 90px;
 }
 
