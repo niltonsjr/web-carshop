@@ -1,5 +1,5 @@
 import Navbar from "components/Navbar";
-import Catalog from "pages";
+import Catalog from "pages/Catalog";
 import Home from "pages/Home";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
