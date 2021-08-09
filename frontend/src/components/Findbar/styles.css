@@ -1,0 +1,52 @@
+.find-container {
+  height: 86px;
+  width: 100%;
+  background-color: #ededed;
+  padding: 22px 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.find-container input {
+  margin-left: 10px;
+  height: 40px;
+  border-radius: 5px 0px 0px 5px;
+  border: 0px;
+  color: #a7a7a7;
+  font-size: 14px;
+  padding: 11px 13px;
+  flex-grow: 3;
+}
+
+.find-container button {
+  margin-right: 10px;
+  height: 40px;
+  background: #00285f;
+  border-radius: 0px 5px 5px 0px;
+  border: 0px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  flex-grow: 1;
+}
+
+@media (min-width: 576px) {
+  .find-container input {
+    margin-left: 22px;
+  }
+
+  .find-container button {
+    margin-right: 22px;
+  }
+}
+
+@media (min-width: 992px) {
+  .find-container input {
+    margin-left: 95px;
+  }
+
+  .find-container button {
+    margin-right: 95px;
+  }
+}
